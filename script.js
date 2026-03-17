@@ -1,10 +1,10 @@
 document.getElementById('login-form').addEventListener('submit', function(event) {
   event.preventDefault();
-  const username = document.getElementById('username').value;
+  const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
   const errorMessage = document.getElementById('error-message');
-  if (!username.includes('@')) {
-    errorMessage.textContent = 'Username must contain @';
+  if (!email.includes('@')) {
+    errorMessage.textContent = 'email must contain @';
   } else if (password.length < 8) {
     errorMessage.textContent = 'Password must be at least 8 characters long';
   } else {
