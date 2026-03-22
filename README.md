@@ -1,4 +1,4 @@
-#OWASP-Juice-shop-HW3
+# OWASP-Juice-shop-HW3
 This project is a simple HTML and JavaScript–only website created as part of the OWASP Juice Shop HW3 assignment. It complements the earlier task of examining the OWASP Juice Shop to identify vulnerabilities on the website.
 ## Login.html
 This is the main page for the app, which contains the code for the basic login form UI and links to script.js. There is also client-side verification by using the required HTML attribute.  
