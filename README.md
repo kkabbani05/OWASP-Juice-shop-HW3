@@ -7,4 +7,4 @@ Handles all client-side behavior for the login page. It waits for the submit but
 ## Success.html
 This HTML page was created to verify whether client-side validation was successfully bypassed in Part 3. If the form submission proceeds despite invalid input, the user is redirected from login.html to this page. Displaying this page confirms that the validation was bypassed and that the form was submitted without the intended JavaScript checks.
 ## How to Run
-Clone the repo, then open login.html to access the site. Make sure that both files are in the same directory. 
+Clone the repo, then open login.html to access the site. Make sure that all files are in the same directory. 
